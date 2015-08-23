@@ -13,7 +13,7 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class Sender {
-    private static final int SEND_NUMBER = 5;
+    private static final int SEND_NUMBER = 120;
 
     public static void main(String[] args) {
         // ConnectionFactory ：连接工厂，JMS 用它创建连接
